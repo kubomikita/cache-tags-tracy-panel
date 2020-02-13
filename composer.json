@@ -1,0 +1,26 @@
+{
+  "name": "kubomikita/cache-tags-tracy-panel",
+  "type": "library",
+  "description": "",
+  "keywords": ["nette","tracy","cache","panel"],
+  "license": ["GNU"],
+  "support": {
+    "issues": "https://github.com/kubomikita/cache-tags-tracy-panel/issues"
+  },
+  "authors": [
+    {
+      "name": "Jakub Mikita",
+      "homepage": "http://www.jakubmikita.sk"
+    }
+  ],
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  },
+  "require": {
+    "php": ">= 7.2.0",
+    "tracy/tracy": "^2.5"
+  }
+
+}

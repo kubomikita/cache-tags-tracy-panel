@@ -1,0 +1,28 @@
+<?php
+declare(strict_types=1);
+
+namespace Kubomikita\Tracy;
+
+use Tracy\Helpers;
+
+?>
+<h1>Tags: <?php echo count($tags)?></h1>
+
+<div class="tracy-inner">
+	<div class="tracy-inner-container">
+		<table class="tracy-sortable">
+			<tr><th>Name</th></tr>
+			<?php
+			foreach ($tags as $query):
+				?>
+				<tr>
+					<td>
+						<?php echo $query["tag"] ?>
+					</td>
+				</tr>
+			<?php endforeach ?>
+		</table>
+
+	</div>
+</div>
+
